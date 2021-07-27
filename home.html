@@ -1,0 +1,271 @@
+<html>
+<style>
+
+</style>
+
+<head>
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./styles2.css">
+  <link rel="stylesheet" href="./middlestyle.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg py-3 navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a href="#" class="navbar-brand">
+          <!-- Logo Image -->
+          <img class="baseImg"
+            src="./logo.png"
+            alt="" class="d-inline-block align-middle mr-2">
+          <!-- Logo Text -->
+          <span class="font-weight-bold loans">Loan Origination</span>
+        </a>
+        <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+          class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+        <div id="navbarSupportedContent" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="./home.html" class="nav-link">Home <span class="sr-only">(current)</span></a></li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-user" aria-hidden="true"></i>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="./login.html">Login - Existing Customer</a>
+                <a class="dropdown-item" href="./login.html">SignUp - New Customer</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--code here-->
+  <div class="middle">
+    <div class="image">
+      <img class="loanImg"
+        src="https://www.kotak.com/content/dam/Kotak/herosliderbanner/how-paperless-personal-loans-work.jpg" alt="">
+      <div class="loanCard" class="card" style="width: 32rem; border-radius: 20px;">
+        <div class="card-body">
+          <h2 class="card-title">Make your dreams come true with our Personal Loan.</h2>
+          <p class="card-text" style="font-size: large; font-weight: lighter;">Avail quick & easy Personal Loans from
+            the comfort of your home. Apply online & get instant approval.</p>
+          <a href="./login.html" class="btn btn-success" style="border-radius: 40px; width: 230px; height: 40px">
+            <h5 style="font-weight: normal;">APPLY NOW</h5>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- original -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Personal Loan Features <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">Eligibility and Documents Required</a>
+          <a class="nav-item nav-link" href="#">Terms and Conditions</a>
+          <a class="nav-item nav-link disabled" href="#">FAQ</a>
+          <a class="nav-item nav-link disabled" href="#">(icici example)</a>
+        </div>
+      </div>
+    </nav>
+     -->
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav nav">
+            <a class="nav-item nav-link active" data-toggle="tab" role="tab" href="#features">Personal Loan Features <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" data-toggle="tab" role="tab" href="#eligibility">Eligibility and Documents Required</a>
+            <a class="nav-item nav-link" data-toggle="tab" role="tab" href="#termsandconditions">Terms and Conditions</a>
+            <a class="nav-item nav-link" data-toggle="tab" role="tab" href="#faq">FAQ</a>
+            <!-- <a class="nav-item nav-link disabled" href="#">(icici example)</a> -->
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="tab-content cardSpace">
+      <div class="card-columns tab-pane active" role="tabpanel" id="features">
+        <div class="card downCard">
+          <div class="card-body">
+            <h5 class="card-title">Instant approval</h5>
+            <p class="card-text">
+              Granting you instant loan approval is well within our capabilities as a leading international bank. So go
+              ahead, apply online and rest assured, we’ve got you covered.</p>
+          </div>
+        </div>
+        <div class="card downCard">
+          <div class="card-body">
+            <h5 class="card-title">No physical interaction required</h5>
+            <p class="card-text">
+              Get instant approval on your application and also complete your KYC online through a video. Learn more.
+            </p>
+          </div>
+        </div>
+        <div class="card downCard">
+          <div class="card-body">
+            <h5 class="card-title">Loan amount</h5>
+            <p class="card-text">
+              With our flexible loan amounts, you can finally set out on that long vacation, plan your dream wedding, or
+              even buy your favorite car. Standard Chartered places no usage restrictions on personal loans and does not
+              require collateral either.</p>
+          </div>
+        </div>
+        <div class="card downCard">
+          <div class="card-body">
+            <h5 class="card-title">Minimal documentation</h5>
+            <p class="card-text">
+              Apply for personal loans online at the Standard Chartered website by filling out a loan application and
+              uploading basic supporting documents such as your identity proof and address proof. Enjoy instant approval
+              on your application process too!</p>
+          </div>
+        </div>
+      </div>
+      <div class="card-columns tab-pane " role="tabpanel" id="eligibility">
+        <div class="card downCardEligibility">
+          <div class="card-body">
+            <h5 class="card-title">Identity Proof:</h5>
+            <p class="card-text">
+            <ul>
+              <li>Aadhaar Card</li>
+              <li>Passport</li>
+              <li>Photo Pan Card</li>
+              <li>Driving License</li>
+              <li>Voter ID Card</li>
+              <li>Photo Ration Card</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+        <div class="card downCardEligibility">
+          <div class="card-body">
+            <h5 class="card-title">Address Proof:</h5>
+            <p class="card-text">
+            <ul>
+              <li>Passport</li>
+              <li>Telephone Bill</li>
+              <li>Ration Card</li>
+              <li>Electricity Bill</li>
+              <li>Voter ID Card</li>
+              <li>Photo Ration Card</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card-columns tab-pane " role="tabpanel" id="termsandconditions">
+        <div class="card downCardTerms">
+          <div class="card-body">
+            <h5 class="card-title">Terms and Conditions</h5>
+            <ul>
+              <li><a href="https://av.sc.com/in/content/docs/in-personal-loan-most-imp-tnc.pdf">Personal Loans – Most
+                  Important terms and conditions</a></li>
+              <hr>
+              <li><a href="https://av.sc.com/in/content/docs/in-schedule-of-charges-june-17-gst.pdf">Schedule of service
+                  charges for details on fees and tariffs</a></li>
+              <hr>
+              <li><a href="https://av.sc.com/in/content/docs/in-scb-pl-terms-n-Conditions.pdf">Personal Loans terms and
+                  conditions</a></li>
+              <hr>
+              <li><a href="https://av.sc.com/in/content/docs/Client-Terms-and-condition.pdf">Client terms and
+                  conditions</a></li>
+              <hr>
+              <li><a href="https://av.sc.com/in/content/docs/ecs-mandate-form.pdf">Please download ECS form for
+                  electronic debit authorization to bank account</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="card-columns tab-pane " role="tabpanel" id="faq">
+        <div class="card downCard">
+          <div class="card-body">
+            <h5 class="card-title">What is a Personal Loan?</h5>
+            <p class="card-text">
+              Granting you instant loan approval is well within our capabilities as a leading international bank. So go
+              ahead, apply online and rest assured, we’ve got you covered.</p>
+          </div>
+        </div>
+        <div class="card downCard">
+          <div class="card-body">
+            <h5 class="card-title">What can a Personal Loan be used for?</h5>
+            <p class="card-text">
+              Get instant approval on your application and also complete your KYC online through a video. Learn more.
+            </p>
+          </div>
+        </div>
+        <div class="card downCard">
+          <div class="card-body">
+            <h5 class="card-title">What are the benefits of taking a personal loan from Standard Chartered?</h5>
+            <p class="card-text">
+              With our flexible loan amounts, you can finally set out on that long vacation, plan your dream wedding, or
+              even buy your favorite car. Standard Chartered places no usage.</p>
+          </div>
+        </div>
+        <div class="card downCard">
+          <div class="card-body">
+            <h5 class="card-title">
+              What are the eligibility criteria to get a personal loan?</h5>
+            <p class="card-text">
+              Apply for personal loans online at the Standard Chartered website by filling out a loan application and
+              uploading basic supporting documents such as your identity proof and address proof.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer  -->
+  <footer class="mainfooter" role="contentinfo">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-8">
+          <!--Column1-->
+          <div>
+            <img class="baseImg"
+              src="./logo.png"
+              alt="">
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-sm-4">
+          <h4>Follow Us</h4>
+          <ul class="social-network social-circle">
+            <li><a href="https://www.linkedin.com/company/standardchartered/" class="icoLinkedin" title="Linkedin"><i
+                  class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://www.twitter.com/stanchart" class="icoTwitter" title="Twitter"><i
+                  class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com/standardchartered" class="icoYoutube" title="Youtube"><i
+                  class="fa fa-youtube"></i></a></li>
+            <li><a href="https://www.facebook.com/standardchartered" class="icoFacebook" title="Facebook"><i
+                  class="fa fa-facebook"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col copy">
+          <p class="text-end">&copy; Copyright © 2021 Standard Chartered Bank </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
